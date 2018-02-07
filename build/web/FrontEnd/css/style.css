@@ -1,0 +1,44 @@
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    width: 70%;
+    margin: auto;
+}
+
+body {
+    padding-top: 28px;
+}
+
+
+
+
+.color_header {
+  width:100%;
+  background-color: lightblue;
+  height: 200px;
+padding-top: 5px;
+background-color: #3c5f6b;
+
+}
+
+.color_header_text{
+  text-align: center;
+  margin: 80px;
+  color:#d9edf7;
+}
+
+.Temporary1 {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.Temporary1 {
+
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+
+}
