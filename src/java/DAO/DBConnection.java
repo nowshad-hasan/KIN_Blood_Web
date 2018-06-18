@@ -24,9 +24,9 @@ import javax.servlet.http.HttpServletResponse;
  */
 public class DBConnection {
     
-    String url = "jdbc:mysql://localhost/KIN_Blood";
+    String url = "jdbc:mysql://165.227.187.240:3306/KIN_Blood";
 	String user = "root";
-	String password = "123456";
+	String password = "sustcse12";
 	Connection con = null;
 
     public Connection getDbConnection() {
@@ -45,6 +45,7 @@ public class DBConnection {
 			System.out.println("Database Connection Successful");
 		} catch (SQLException e) {
 			System.out.println("Database Connection Failed");
+                        e.printStackTrace();
 		}
 
 		return con;
